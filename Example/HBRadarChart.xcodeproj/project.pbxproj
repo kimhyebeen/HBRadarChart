@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		4BBD78C35CF0413A597DB013 /* Pods_HBRadarChart_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39125ED36815A07DA3387211 /* Pods_HBRadarChart_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		EE39A2AA260DFFB600C34901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A2A9260DFFB600C34901 /* AppDelegate.swift */; };
+		EE39A2AC260DFFB600C34901 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A2AB260DFFB600C34901 /* SceneDelegate.swift */; };
+		EE39A2AE260DFFB600C34901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A2AD260DFFB600C34901 /* ViewController.swift */; };
+		EE39A2B3260DFFB900C34901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE39A2B2260DFFB900C34901 /* Assets.xcassets */; };
+		EE39A2B6260DFFB900C34901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE39A2B4260DFFB900C34901 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,13 @@
 		8529CA77B318E6B85FC583C6 /* Pods-HBRadarChart_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBRadarChart_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HBRadarChart_Tests/Pods-HBRadarChart_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8846BD7150E2D8F3227BF31A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ADC094FECBCAF8B8E0695E54 /* Pods-HBRadarChart_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBRadarChart_Tests.release.xcconfig"; path = "Target Support Files/Pods-HBRadarChart_Tests/Pods-HBRadarChart_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EE39A2A7260DFFB600C34901 /* HBRadarChart_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBRadarChart_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE39A2A9260DFFB600C34901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE39A2AB260DFFB600C34901 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE39A2AD260DFFB600C34901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE39A2B2260DFFB900C34901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE39A2B5260DFFB900C34901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE39A2B7260DFFB900C34901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BBD78C35CF0413A597DB013 /* Pods_HBRadarChart_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE39A2A4260DFFB600C34901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				EE39A2A8260DFFB600C34901 /* HBRadarChart_Example */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				21233BE591421D30DD9B619C /* Pods */,
@@ -67,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACE51AFB9204008FA782 /* HBRadarChart_Tests.xctest */,
+				EE39A2A7260DFFB600C34901 /* HBRadarChart_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +119,19 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		EE39A2A8260DFFB600C34901 /* HBRadarChart_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EE39A2A9260DFFB600C34901 /* AppDelegate.swift */,
+				EE39A2AB260DFFB600C34901 /* SceneDelegate.swift */,
+				EE39A2AD260DFFB600C34901 /* ViewController.swift */,
+				EE39A2B2260DFFB900C34901 /* Assets.xcassets */,
+				EE39A2B4260DFFB900C34901 /* LaunchScreen.storyboard */,
+				EE39A2B7260DFFB900C34901 /* Info.plist */,
+			);
+			path = HBRadarChart_Example;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,13 +154,30 @@
 			productReference = 607FACE51AFB9204008FA782 /* HBRadarChart_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EE39A2A6260DFFB600C34901 /* HBRadarChart_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE39A2B8260DFFB900C34901 /* Build configuration list for PBXNativeTarget "HBRadarChart_Example" */;
+			buildPhases = (
+				EE39A2A3260DFFB600C34901 /* Sources */,
+				EE39A2A4260DFFB600C34901 /* Frameworks */,
+				EE39A2A5260DFFB600C34901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBRadarChart_Example;
+			productName = HBRadarChart_Example;
+			productReference = EE39A2A7260DFFB600C34901 /* HBRadarChart_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -134,6 +185,10 @@
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					EE39A2A6260DFFB600C34901 = {
+						CreatedOnToolsVersion = 12.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -151,6 +206,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				EE39A2A6260DFFB600C34901 /* HBRadarChart_Example */,
 				607FACE41AFB9204008FA782 /* HBRadarChart_Tests */,
 			);
 		};
@@ -161,6 +217,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE39A2A5260DFFB600C34901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE39A2B6260DFFB900C34901 /* LaunchScreen.storyboard in Resources */,
+				EE39A2B3260DFFB900C34901 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +283,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE39A2A3260DFFB600C34901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE39A2AE260DFFB600C34901 /* ViewController.swift in Sources */,
+				EE39A2AA260DFFB600C34901 /* AppDelegate.swift in Sources */,
+				EE39A2AC260DFFB600C34901 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE39A2B4260DFFB900C34901 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE39A2B5260DFFB900C34901 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
@@ -362,6 +448,63 @@
 			};
 			name = Release;
 		};
+		EE39A2B9260DFFB900C34901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = HBRadarChart_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khb.HBRadarChart-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE39A2BA260DFFB900C34901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = HBRadarChart_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khb.HBRadarChart-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -379,6 +522,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE39A2B8260DFFB900C34901 /* Build configuration list for PBXNativeTarget "HBRadarChart_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE39A2B9260DFFB900C34901 /* Debug */,
+				EE39A2BA260DFFB900C34901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
