@@ -189,7 +189,8 @@
 				EE39A28A260DFBF000C34901 /* HBPentagonPoint.swift */,
 				EE39A28F260DFC0000C34901 /* HBPentagonRadarChart.swift */,
 			);
-			path = Pentagon;
+			name = Pentagon;
+			path = HBRadarChart/Classes/Pentagon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
