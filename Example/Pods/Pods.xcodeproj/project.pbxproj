@@ -14,6 +14,8 @@
 		C22DD614A0A99AAD508A76216508B6FD /* Pods-HBRadarChart_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4C4DD185FA66FF64EB40553AA3501 /* Pods-HBRadarChart_Tests-dummy.m */; };
 		E03EB83F0E0E7D42E18DAA55D12D1FBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E9D3AE1A0F34E4AB6B79DE8B04E1D4AE /* HBRadarChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBECE622F3E96CBAA5713B8668FC9934 /* HBRadarChart-dummy.m */; };
+		EE39A28B260DFBF000C34901 /* HBPentagonPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A28A260DFBF000C34901 /* HBPentagonPoint.swift */; };
+		EE39A290260DFC0000C34901 /* HBPentagonRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A28F260DFC0000C34901 /* HBPentagonRadarChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +32,7 @@
 		096BD289E4E90029C8F929587F54EE7A /* HBRadarChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBRadarChart.modulemap; sourceTree = "<group>"; };
 		124C226E8BD14B1AC379674BF9BCD9EF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HBRadarChart/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3D6D138B27804E4A90CD9814F3F9B9E3 /* Pods-HBRadarChart_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBRadarChart_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3DE4A1EB351204FBF2E91B390A53A3CF /* HBRadarChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBRadarChart.framework; path = HBRadarChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE4A1EB351204FBF2E91B390A53A3CF /* HBRadarChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HBRadarChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		421FDD758F381B34BE457A422D44E53F /* HBRadarChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBRadarChart.release.xcconfig; sourceTree = "<group>"; };
 		4FCBB3A87E98AAC4FF74729453C31976 /* HBRadarChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBRadarChart-umbrella.h"; sourceTree = "<group>"; };
 		55F09813D031BE49359833BAFDDB2274 /* Pods-HBRadarChart_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBRadarChart_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -39,17 +41,19 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7EF4C4DD185FA66FF64EB40553AA3501 /* Pods-HBRadarChart_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBRadarChart_Tests-dummy.m"; sourceTree = "<group>"; };
 		83FB8AB31591C8C37D9222A79586AC9A /* Pods-HBRadarChart_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBRadarChart_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9A3E6D5CADC5ECECDC399C06B978715E /* Pods_HBRadarChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBRadarChart_Tests.framework; path = "Pods-HBRadarChart_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FADD98550FA9FB91580E4010735AA08 /* HBRadarChart.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HBRadarChart.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A3E6D5CADC5ECECDC399C06B978715E /* Pods_HBRadarChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBRadarChart_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FADD98550FA9FB91580E4010735AA08 /* HBRadarChart.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HBRadarChart.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A44EB885EFDE4089F03F8B6E99E7B07E /* HBRadarChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBRadarChart-Info.plist"; sourceTree = "<group>"; };
 		B21C2BCF83E858D40A65CED00299B79E /* Pods-HBRadarChart_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBRadarChart_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C8AD97E12E91811840EAA53F781F6320 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C8AD97E12E91811840EAA53F781F6320 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE83F1D79DAA929E5BE01D9A6BA6B6FE /* Pods-HBRadarChart_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBRadarChart_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7A9CDA6063E655201A8ED3A2EFF070C /* HBRadarChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBRadarChart.debug.xcconfig; sourceTree = "<group>"; };
 		DBECE622F3E96CBAA5713B8668FC9934 /* HBRadarChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBRadarChart-dummy.m"; sourceTree = "<group>"; };
-		E342FC117C40969BEF789C502CC59646 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E342FC117C40969BEF789C502CC59646 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EC7F85832D4D2E86045C79BD465D1158 /* Pods-HBRadarChart_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBRadarChart_Tests-Info.plist"; sourceTree = "<group>"; };
+		EE39A28A260DFBF000C34901 /* HBPentagonPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBPentagonPoint.swift; sourceTree = "<group>"; };
+		EE39A28F260DFC0000C34901 /* HBPentagonRadarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBPentagonRadarChart.swift; sourceTree = "<group>"; };
 		FCF434FD98B24A501EBD1C16CCF5E9CD /* Pods-HBRadarChart_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBRadarChart_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +106,7 @@
 		2FEB44B02DB7D440296A0B7378025EE7 /* HBRadarChart */ = {
 			isa = PBXGroup;
 			children = (
+				EE39A289260DFBD800C34901 /* Pentagon */,
 				124C226E8BD14B1AC379674BF9BCD9EF /* ReplaceMe.swift */,
 				A90FBAF11EDCEACDA413D823D26D226F /* Pod */,
 				3946DC1B6B8CBC673DE81A83A8CEE0A2 /* Support Files */,
@@ -176,6 +181,15 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE39A289260DFBD800C34901 /* Pentagon */ = {
+			isa = PBXGroup;
+			children = (
+				EE39A28A260DFBF000C34901 /* HBPentagonPoint.swift */,
+				EE39A28F260DFC0000C34901 /* HBPentagonRadarChart.swift */,
+			);
+			path = Pentagon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +310,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D3AE1A0F34E4AB6B79DE8B04E1D4AE /* HBRadarChart-dummy.m in Sources */,
+				EE39A28B260DFBF000C34901 /* HBPentagonPoint.swift in Sources */,
 				3C254307BFE297658BCBA59D4BD31CD0 /* ReplaceMe.swift in Sources */,
+				EE39A290260DFC0000C34901 /* HBPentagonRadarChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,8 +413,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
