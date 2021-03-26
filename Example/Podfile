@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HBRadarChart_Tests' do
+  pod 'HBRadarChart', :path => '../'
+  
+  
+end
