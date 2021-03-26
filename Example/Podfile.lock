@@ -1,0 +1,16 @@
+PODS:
+  - HBRadarChart (0.1.0)
+
+DEPENDENCIES:
+  - HBRadarChart (from `../`)
+
+EXTERNAL SOURCES:
+  HBRadarChart:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBRadarChart: 6497708812921990aadbaa1c57dae1b40f4c28bd
+
+PODFILE CHECKSUM: 22d4b9e01404f3b4f8e99ff4b2fe7e7d0aad4e87
+
+COCOAPODS: 1.10.0
