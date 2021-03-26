@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HBRadarChart'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'polygon-shaped radar charts.'
   s.swift_versions    = '4.0'
 
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'HBRadarChart/Classes/**/*'
+  s.source_files = 'HBRadarChart/Classes/*'
   
   # s.resource_bundles = {
   #   'HBRadarChart' => ['HBRadarChart/Assets/*.png']
