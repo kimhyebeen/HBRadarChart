@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HBRadarChart'
-  s.version          = '1.0.4'
-  s.summary          = 'polygon-shaped radar charts.'
+  s.version          = '1.0.5'
+  s.summary          = 'polygonal shaped radar charts.'
   s.swift_versions    = '4.0'
 
 # This description is used to generate tags and improve search results.
