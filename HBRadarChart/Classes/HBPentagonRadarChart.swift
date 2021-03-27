@@ -74,8 +74,10 @@ open class HBPentagonRadarChart: UIView {
     
     private func makeGraph() {
         if graphValues.count != 5 { return }
+        
         let graphPath = UIBezierPath()
         graphPath.move(to: graphValues[0] < 0 || graphValues[0] >= 5 ? pointList[4][0] : pointList[graphValues[0]][0])
+        
         for i in 1..<5 {
             graphPath.addLine(to: graphValues[i] < 0 || graphValues[i] >= 5 ? pointList[4][i] : pointList[graphValues[i]][i])
         }

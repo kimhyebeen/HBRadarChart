@@ -23,6 +23,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'HBRadarChart'
 ```
+```ruby
+pod 'HBRadarChart', :git => 'https://github.com/kimhyebeen/HBRadarChart'
+```
 
 ## Basics
 
