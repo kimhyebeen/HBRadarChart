@@ -52,8 +52,8 @@
 		DBECE622F3E96CBAA5713B8668FC9934 /* HBRadarChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBRadarChart-dummy.m"; sourceTree = "<group>"; };
 		E342FC117C40969BEF789C502CC59646 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EC7F85832D4D2E86045C79BD465D1158 /* Pods-HBRadarChart_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBRadarChart_Tests-Info.plist"; sourceTree = "<group>"; };
-		EE39A28A260DFBF000C34901 /* HBPentagonPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBPentagonPoint.swift; sourceTree = "<group>"; };
-		EE39A28F260DFC0000C34901 /* HBPentagonRadarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBPentagonRadarChart.swift; sourceTree = "<group>"; };
+		EE39A28A260DFBF000C34901 /* HBPentagonPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HBPentagonPoint.swift; path = HBRadarChart/Classes/HBPentagonPoint.swift; sourceTree = "<group>"; };
+		EE39A28F260DFC0000C34901 /* HBPentagonRadarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HBPentagonRadarChart.swift; path = HBRadarChart/Classes/HBPentagonRadarChart.swift; sourceTree = "<group>"; };
 		FCF434FD98B24A501EBD1C16CCF5E9CD /* Pods-HBRadarChart_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBRadarChart_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +106,8 @@
 		2FEB44B02DB7D440296A0B7378025EE7 /* HBRadarChart */ = {
 			isa = PBXGroup;
 			children = (
-				EE39A289260DFBD800C34901 /* Pentagon */,
+				EE39A28A260DFBF000C34901 /* HBPentagonPoint.swift */,
+				EE39A28F260DFC0000C34901 /* HBPentagonRadarChart.swift */,
 				124C226E8BD14B1AC379674BF9BCD9EF /* ReplaceMe.swift */,
 				A90FBAF11EDCEACDA413D823D26D226F /* Pod */,
 				3946DC1B6B8CBC673DE81A83A8CEE0A2 /* Support Files */,
@@ -181,16 +182,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EE39A289260DFBD800C34901 /* Pentagon */ = {
-			isa = PBXGroup;
-			children = (
-				EE39A28A260DFBF000C34901 /* HBPentagonPoint.swift */,
-				EE39A28F260DFC0000C34901 /* HBPentagonRadarChart.swift */,
-			);
-			name = Pentagon;
-			path = HBRadarChart/Classes/Pentagon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
