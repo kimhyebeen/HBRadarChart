@@ -28,7 +28,7 @@ open class HBPentagonRadarChart: UIView {
     private var chartSpacingFromView: CGFloat = 12
     private var pointList: [[CGPoint]] = Array(repeating: Array(repeating: CGPoint(x: 0, y: 0), count: 6), count: 5)
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         
         setupView()
