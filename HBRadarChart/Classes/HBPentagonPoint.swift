@@ -20,7 +20,7 @@ struct HBPentagonPoint {
     func getPoints() -> [CGPoint] {
         var points: [CGPoint] = []
         
-        points.append(CGPoint(x: midX, y: spacingFromSuperView + spacing * count)) // 슈퍼뷰와 오각형과의 간격 - 상하좌우 12씩
+        points.append(CGPoint(x: midX, y: spacingFromSuperView + spacing * count))
         points.append(CGPoint(x: midX + (width * cos(radian) * sin(radian)), y: spacingFromSuperView + spacing * count + (width * cos(radian) * cos(radian))))
         points.append(CGPoint(x: midX + (width/2 * cos(radian)), y: midY + (width/2 * sin(radian))))
         points.append(CGPoint(x: midX - (width/2 * cos(radian)), y: midY + (width/2 * sin(radian))))

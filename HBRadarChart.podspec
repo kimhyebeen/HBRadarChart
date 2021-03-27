@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HBRadarChart'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'polygonal shaped radar charts.'
   s.swift_versions    = '4.0'
 
