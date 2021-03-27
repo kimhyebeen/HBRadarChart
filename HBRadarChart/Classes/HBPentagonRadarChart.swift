@@ -41,6 +41,7 @@ open class HBPentagonRadarChart: UIView {
     }
     
     private func setupView() {
+        self.backgroundColor = .clear
         pentagonMaxSize = self.frame.width - chartSpacingFromView * 2
     }
     
