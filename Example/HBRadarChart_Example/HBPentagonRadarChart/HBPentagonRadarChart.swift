@@ -1,8 +1,9 @@
 //
 //  HBPentagonRadarChart.swift
-//  HBRadarChart
+//  HBRadarChart_Example
 //
-//  Created by 김혜빈 on 2021/03/26.
+//  Created by 김혜빈 on 2021/03/30.
+//  Copyright © 2021 CocoaPods. All rights reserved.
 //
 
 import UIKit

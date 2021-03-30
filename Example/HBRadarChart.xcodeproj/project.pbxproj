@@ -11,9 +11,17 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		EE39A2AA260DFFB600C34901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A2A9260DFFB600C34901 /* AppDelegate.swift */; };
 		EE39A2AC260DFFB600C34901 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A2AB260DFFB600C34901 /* SceneDelegate.swift */; };
-		EE39A2AE260DFFB600C34901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A2AD260DFFB600C34901 /* ViewController.swift */; };
+		EE39A2AE260DFFB600C34901 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A2AD260DFFB600C34901 /* MainViewController.swift */; };
 		EE39A2B3260DFFB900C34901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE39A2B2260DFFB900C34901 /* Assets.xcassets */; };
 		EE39A2B6260DFFB900C34901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE39A2B4260DFFB900C34901 /* LaunchScreen.storyboard */; };
+		EEE4645F2612EB8200AF4A67 /* HBPentagonPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4645E2612EB8200AF4A67 /* HBPentagonPoint.swift */; };
+		EEE464652612EBA100AF4A67 /* HBPentagonRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE464642612EBA100AF4A67 /* HBPentagonRadarChart.swift */; };
+		EEE464702612ECDC00AF4A67 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4646F2612ECDC00AF4A67 /* LineChartViewController.swift */; };
+		EEE464772612EE1F00AF4A67 /* PointedChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE464762612EE1F00AF4A67 /* PointedChartViewController.swift */; };
+		EEE4647B2612EE3100AF4A67 /* FilledChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4647A2612EE3100AF4A67 /* FilledChartViewController.swift */; };
+		EEE464812612EE3F00AF4A67 /* FilledLineWithPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE464802612EE3F00AF4A67 /* FilledLineWithPointViewController.swift */; };
+		EEE464852612F21500AF4A67 /* DottedLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE464842612F21500AF4A67 /* DottedLineViewController.swift */; };
+		EEE464892612F43700AF4A67 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE464882612F43700AF4A67 /* MainTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +37,21 @@
 		EE39A2A7260DFFB600C34901 /* HBRadarChart_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBRadarChart_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE39A2A9260DFFB600C34901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE39A2AB260DFFB600C34901 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE39A2AD260DFFB600C34901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE39A2AD260DFFB600C34901 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EE39A2B2260DFFB900C34901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE39A2B5260DFFB900C34901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE39A2B7260DFFB900C34901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE4643D2612E9A400AF4A67 /* HBRadarChart.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = HBRadarChart.xcodeproj; sourceTree = "<group>"; };
+		EEE464402612E9B600AF4A67 /* HBRadarChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HBRadarChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE4644E2612EB5100AF4A67 /* HBRadarChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HBRadarChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE4645E2612EB8200AF4A67 /* HBPentagonPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBPentagonPoint.swift; sourceTree = "<group>"; };
+		EEE464642612EBA100AF4A67 /* HBPentagonRadarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBPentagonRadarChart.swift; sourceTree = "<group>"; };
+		EEE4646F2612ECDC00AF4A67 /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		EEE464762612EE1F00AF4A67 /* PointedChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointedChartViewController.swift; sourceTree = "<group>"; };
+		EEE4647A2612EE3100AF4A67 /* FilledChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledChartViewController.swift; sourceTree = "<group>"; };
+		EEE464802612EE3F00AF4A67 /* FilledLineWithPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledLineWithPointViewController.swift; sourceTree = "<group>"; };
+		EEE464842612F21500AF4A67 /* DottedLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedLineViewController.swift; sourceTree = "<group>"; };
+		EEE464882612F43700AF4A67 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +76,9 @@
 		03FBDA4C65182B2CD5FABBC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EEE4644E2612EB5100AF4A67 /* HBRadarChart.framework */,
+				EEE464402612E9B600AF4A67 /* HBRadarChart.framework */,
+				EEE4643D2612E9A400AF4A67 /* HBRadarChart.xcodeproj */,
 				39125ED36815A07DA3387211 /* Pods_HBRadarChart_Tests.framework */,
 			);
 			name = Frameworks;
@@ -122,14 +144,43 @@
 		EE39A2A8260DFFB600C34901 /* HBRadarChart_Example */ = {
 			isa = PBXGroup;
 			children = (
+				EEE464682612EC3D00AF4A67 /* Main */,
+				EEE4645D2612EB6A00AF4A67 /* HBPentagonRadarChart */,
 				EE39A2A9260DFFB600C34901 /* AppDelegate.swift */,
 				EE39A2AB260DFFB600C34901 /* SceneDelegate.swift */,
-				EE39A2AD260DFFB600C34901 /* ViewController.swift */,
 				EE39A2B2260DFFB900C34901 /* Assets.xcassets */,
 				EE39A2B4260DFFB900C34901 /* LaunchScreen.storyboard */,
 				EE39A2B7260DFFB900C34901 /* Info.plist */,
 			);
 			path = HBRadarChart_Example;
+			sourceTree = "<group>";
+		};
+		EEE4643E2612E9A400AF4A67 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE4645D2612EB6A00AF4A67 /* HBPentagonRadarChart */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4645E2612EB8200AF4A67 /* HBPentagonPoint.swift */,
+				EEE464642612EBA100AF4A67 /* HBPentagonRadarChart.swift */,
+			);
+			path = HBPentagonRadarChart;
+			sourceTree = "<group>";
+		};
+		EEE464682612EC3D00AF4A67 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EEE464882612F43700AF4A67 /* MainTableViewCell.swift */,
+				EE39A2AD260DFFB600C34901 /* MainViewController.swift */,
+				EEE4646F2612ECDC00AF4A67 /* LineChartViewController.swift */,
+				EEE464762612EE1F00AF4A67 /* PointedChartViewController.swift */,
+				EEE4647A2612EE3100AF4A67 /* FilledChartViewController.swift */,
+				EEE464802612EE3F00AF4A67 /* FilledLineWithPointViewController.swift */,
+				EEE464842612F21500AF4A67 /* DottedLineViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +255,12 @@
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EEE4643E2612E9A400AF4A67 /* Products */;
+					ProjectRef = EEE4643D2612E9A400AF4A67 /* HBRadarChart.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EE39A2A6260DFFB600C34901 /* HBRadarChart_Example */,
@@ -287,8 +344,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE39A2AE260DFFB600C34901 /* ViewController.swift in Sources */,
+				EEE464892612F43700AF4A67 /* MainTableViewCell.swift in Sources */,
+				EEE4645F2612EB8200AF4A67 /* HBPentagonPoint.swift in Sources */,
+				EEE464702612ECDC00AF4A67 /* LineChartViewController.swift in Sources */,
+				EEE464812612EE3F00AF4A67 /* FilledLineWithPointViewController.swift in Sources */,
+				EE39A2AE260DFFB600C34901 /* MainViewController.swift in Sources */,
+				EEE4647B2612EE3100AF4A67 /* FilledChartViewController.swift in Sources */,
+				EEE464772612EE1F00AF4A67 /* PointedChartViewController.swift in Sources */,
+				EEE464652612EBA100AF4A67 /* HBPentagonRadarChart.swift in Sources */,
 				EE39A2AA260DFFB600C34901 /* AppDelegate.swift in Sources */,
+				EEE464852612F21500AF4A67 /* DottedLineViewController.swift in Sources */,
 				EE39A2AC260DFFB600C34901 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
