@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/HBRadarChart.svg?style=flat)](https://cocoapods.org/pods/HBRadarChart)
 [![Platform](https://img.shields.io/cocoapods/p/HBRadarChart.svg?style=flat)](https://cocoapods.org/pods/HBRadarChart)
 
-HBRadarChart provided polygonal shaped radar charts.
+HBRadarChart provides radar charts with polygonal shapes such as pentagon. This helps to show 5 data in radar chart. It can be represented by lines only, or by colored polygons.
 
 ## Example
 
@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-:iOS '13.0'
+iOS '13.0'
 
 ## Installation
 
@@ -33,11 +33,86 @@ I used the principle below. Since `HBPentagonChart` makes 5 pentagons layered, i
 
  
 
-(이미지 첨부 예정)
+<img src="./image/basics.png" width="800" />
+
+## Usage
+* import this module.
+````swift
+import HBRadarGraph
+````
+
+<br />
+
+* create a property for PentagonGraph in your ViewController
+````swift
+let pentagonGraph = HBPentagonGraph(frame: CGRect(x: self.view.frame.midX - 110, y: self.view.frame.midY - 110, width: 220, height: 220))
+````
+
+<br />
+
+* setting the values in your `HBPentagonGraph`.
+
+`graphValues` means the graph value of each data. 0 is the largest value and 4 is the smallest value in the graph value. The graph value must be an integer value.
+
+<img src="./image/usage01.png" width="250" />
+
+````swift
+pentagonGraph.graphValues = [0,3,1,2,4]
+pentagonGraph.backgroundColor = .clear
+self.view.addSubview(pentagonGraph)
+````
+
+<br />
+
+* you can change the design of graph like this.
+
+<img src="./image/usage02.png" width="500" />
+
+````swift
+pentagonGraph.graphValues = [0,3,1,2,4]
+pentagonGraph.circleHidden = true // or false
+pentagonGraph.isStrokeGraph = false
+pentagonGraph.isFillGraph = true
+pentagonGraph.backgroundColor = .clear
+self.view.addSubview(pentagonGraph)
+````
+
+ <br />
 
 ## Properties
+* pentagonColor: UIColor
+    + color of base pentagons under the graph
+* pentagonMaxSize: CGFloat
+    + max size of HBPentagonRadarChart
+* pentagonSpacing: CGFloat
+    + space size between each base pentagon
+* graphStrokeColor: UIColor
+    + stroke color of chart
+* graphFillColor: UIColor
+    + filled color of chart
+* graphValues: [Int]
+    + values of chart
+    + the number of values must be 5.
+    + basic value is [4,4,4,4,4]
+* graphLineWidth: CGFloat
+    + line width of chart
+* isDottedLine: Bool
+    + If isDottedLine is true, the chart line is dotted.
+* isStrokeGraph: Bool
+    + If isStrokeGraph is true, the chart line is not hidden.
+* isFillGraph: Bool
+    + If isFillGraph is true, the chart color is not transparent.
+* contentsColors: [UIColor]
+    + the color of each point
+    + the number of values must be 5.
+    + basic value is [.systemPurple, .systemBlue, .systemPink, .systemGreen, .systemYellow]
+* circleSize: CGFloat
+    + size of points
+    + basic value is 4.
+* circleHidden: Bool
+    + If circleHidden is true, points are hidden.
 
- 
+<br />
 
 ## Author
 
