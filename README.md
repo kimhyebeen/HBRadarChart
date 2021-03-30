@@ -11,6 +11,8 @@ HBRadarChart provides radar charts with polygonal shapes such as pentagon. This 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+<img src="./image/example.png" />
+
 ## Requirements
 
 iOS '13.0'
