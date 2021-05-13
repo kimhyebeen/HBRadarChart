@@ -7,6 +7,10 @@
 
 HBRadarChart provides radar charts with polygonal shapes such as pentagon. This helps to show 5 data in radar chart. It can be represented by lines only, or by colored polygons.
 
+<br />
+
+HBRadarChart는 다각형 그래프 차트 라이브러리입니다. DND라는 동아리 활동을 할 때, 디자인된 화면에 데이터 통계를 보여주기 위해 오각형 차트가 있어서 라이브러리로 만들어도 괜찮다고 생각해서 구현하게 되었습니다. 현재 오각형 차트만 있지만, 앞으로 여유가 생길 때마다 다른 다각형 차트도 추가해볼 예정입니다 :)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
