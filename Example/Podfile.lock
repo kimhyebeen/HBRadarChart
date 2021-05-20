@@ -1,16 +1,16 @@
 PODS:
-  - HBRadarChart (0.1.0)
+  - HBRadarChart (1.1.0)
 
 DEPENDENCIES:
-  - HBRadarChart (from `../`)
+  - HBRadarChart
 
-EXTERNAL SOURCES:
-  HBRadarChart:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - HBRadarChart
 
 SPEC CHECKSUMS:
-  HBRadarChart: 6497708812921990aadbaa1c57dae1b40f4c28bd
+  HBRadarChart: a1cce3aca5555434a3b72a093a0b74fd58082a63
 
-PODFILE CHECKSUM: 22d4b9e01404f3b4f8e99ff4b2fe7e7d0aad4e87
+PODFILE CHECKSUM: e8cb090f1207d06041f56f24c87dde2a3b94dca5
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

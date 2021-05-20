@@ -1,6 +1,0 @@
-framework module Pods_HBRadarChart_Tests {
-  umbrella header "Pods-HBRadarChart_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

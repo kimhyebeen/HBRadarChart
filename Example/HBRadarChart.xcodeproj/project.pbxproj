@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BBD78C35CF0413A597DB013 /* Pods_HBRadarChart_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39125ED36815A07DA3387211 /* Pods_HBRadarChart_Tests.framework */; };
+		4ABBCA217809F94E4762C6B1 /* Pods_HBRadarChart_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10D62F1EE08D097EC947A5F /* Pods_HBRadarChart_Example.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		EE39A2AA260DFFB600C34901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A2A9260DFFB600C34901 /* AppDelegate.swift */; };
 		EE39A2AC260DFFB600C34901 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A2AB260DFFB600C34901 /* SceneDelegate.swift */; };
 		EE39A2AE260DFFB600C34901 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A2AD260DFFB600C34901 /* MainViewController.swift */; };
 		EE39A2B3260DFFB900C34901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE39A2B2260DFFB900C34901 /* Assets.xcassets */; };
 		EE39A2B6260DFFB900C34901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE39A2B4260DFFB900C34901 /* LaunchScreen.storyboard */; };
-		EEE4645F2612EB8200AF4A67 /* HBPentagonPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4645E2612EB8200AF4A67 /* HBPentagonPoint.swift */; };
-		EEE464652612EBA100AF4A67 /* HBPentagonRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE464642612EBA100AF4A67 /* HBPentagonRadarChart.swift */; };
 		EEE464702612ECDC00AF4A67 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4646F2612ECDC00AF4A67 /* LineChartViewController.swift */; };
 		EEE464772612EE1F00AF4A67 /* PointedChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE464762612EE1F00AF4A67 /* PointedChartViewController.swift */; };
 		EEE4647B2612EE3100AF4A67 /* FilledChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4647A2612EE3100AF4A67 /* FilledChartViewController.swift */; };
@@ -25,15 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		152E02C4FFAA8D4B9FD746E1 /* Pods-HBRadarChart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBRadarChart_Example.release.xcconfig"; path = "Target Support Files/Pods-HBRadarChart_Example/Pods-HBRadarChart_Example.release.xcconfig"; sourceTree = "<group>"; };
 		15C4E5110EE422FF27F77C17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		39125ED36815A07DA3387211 /* Pods_HBRadarChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBRadarChart_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECBD3376253E74BF134D0A7 /* Pods-HBRadarChart_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBRadarChart_Example.debug.xcconfig"; path = "Target Support Files/Pods-HBRadarChart_Example/Pods-HBRadarChart_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* HBRadarChart_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBRadarChart_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		819909AF5128EA2A0F786752 /* HBRadarChart.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HBRadarChart.podspec; path = ../HBRadarChart.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8529CA77B318E6B85FC583C6 /* Pods-HBRadarChart_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBRadarChart_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HBRadarChart_Tests/Pods-HBRadarChart_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8846BD7150E2D8F3227BF31A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		ADC094FECBCAF8B8E0695E54 /* Pods-HBRadarChart_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBRadarChart_Tests.release.xcconfig"; path = "Target Support Files/Pods-HBRadarChart_Tests/Pods-HBRadarChart_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A10D62F1EE08D097EC947A5F /* Pods_HBRadarChart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBRadarChart_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE39A2A7260DFFB600C34901 /* HBRadarChart_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBRadarChart_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE39A2A9260DFFB600C34901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE39A2AB260DFFB600C34901 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +42,6 @@
 		EEE4643D2612E9A400AF4A67 /* HBRadarChart.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = HBRadarChart.xcodeproj; sourceTree = "<group>"; };
 		EEE464402612E9B600AF4A67 /* HBRadarChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HBRadarChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE4644E2612EB5100AF4A67 /* HBRadarChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HBRadarChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEE4645E2612EB8200AF4A67 /* HBPentagonPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBPentagonPoint.swift; sourceTree = "<group>"; };
-		EEE464642612EBA100AF4A67 /* HBPentagonRadarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBPentagonRadarChart.swift; sourceTree = "<group>"; };
 		EEE4646F2612ECDC00AF4A67 /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
 		EEE464762612EE1F00AF4A67 /* PointedChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointedChartViewController.swift; sourceTree = "<group>"; };
 		EEE4647A2612EE3100AF4A67 /* FilledChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledChartViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BBD78C35CF0413A597DB013 /* Pods_HBRadarChart_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ABBCA217809F94E4762C6B1 /* Pods_HBRadarChart_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +75,7 @@
 				EEE4644E2612EB5100AF4A67 /* HBRadarChart.framework */,
 				EEE464402612E9B600AF4A67 /* HBRadarChart.framework */,
 				EEE4643D2612E9A400AF4A67 /* HBRadarChart.xcodeproj */,
-				39125ED36815A07DA3387211 /* Pods_HBRadarChart_Tests.framework */,
+				A10D62F1EE08D097EC947A5F /* Pods_HBRadarChart_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,8 +83,8 @@
 		21233BE591421D30DD9B619C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8529CA77B318E6B85FC583C6 /* Pods-HBRadarChart_Tests.debug.xcconfig */,
-				ADC094FECBCAF8B8E0695E54 /* Pods-HBRadarChart_Tests.release.xcconfig */,
+				2ECBD3376253E74BF134D0A7 /* Pods-HBRadarChart_Example.debug.xcconfig */,
+				152E02C4FFAA8D4B9FD746E1 /* Pods-HBRadarChart_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -145,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				EEE464682612EC3D00AF4A67 /* Main */,
-				EEE4645D2612EB6A00AF4A67 /* HBPentagonRadarChart */,
 				EE39A2A9260DFFB600C34901 /* AppDelegate.swift */,
 				EE39A2AB260DFFB600C34901 /* SceneDelegate.swift */,
 				EE39A2B2260DFFB900C34901 /* Assets.xcassets */,
@@ -157,16 +152,9 @@
 		};
 		EEE4643E2612E9A400AF4A67 /* Products */ = {
 			isa = PBXGroup;
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EEE4645D2612EB6A00AF4A67 /* HBPentagonRadarChart */ = {
-			isa = PBXGroup;
 			children = (
-				EEE4645E2612EB8200AF4A67 /* HBPentagonPoint.swift */,
-				EEE464642612EBA100AF4A67 /* HBPentagonRadarChart.swift */,
 			);
-			path = HBPentagonRadarChart;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		EEE464682612EC3D00AF4A67 /* Main */ = {
@@ -190,11 +178,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HBRadarChart_Tests" */;
 			buildPhases = (
-				4B3157279D66F4FB645E28C9 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				312C9A160D3E4F24C5C514AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE39A2B8260DFFB900C34901 /* Build configuration list for PBXNativeTarget "HBRadarChart_Example" */;
 			buildPhases = (
+				C9720CFC002A84CD669EE6C5 /* [CP] Check Pods Manifest.lock */,
 				EE39A2A3260DFFB600C34901 /* Sources */,
 				EE39A2A4260DFFB600C34901 /* Frameworks */,
 				EE39A2A5260DFFB600C34901 /* Resources */,
+				D14F4C6E12BE88A7765FA1FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,25 +277,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		312C9A160D3E4F24C5C514AB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HBRadarChart_Tests/Pods-HBRadarChart_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HBRadarChart/HBRadarChart.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HBRadarChart.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBRadarChart_Tests/Pods-HBRadarChart_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4B3157279D66F4FB645E28C9 /* [CP] Check Pods Manifest.lock */ = {
+		C9720CFC002A84CD669EE6C5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -322,11 +292,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HBRadarChart_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HBRadarChart_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D14F4C6E12BE88A7765FA1FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBRadarChart_Example/Pods-HBRadarChart_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HBRadarChart/HBRadarChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HBRadarChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBRadarChart_Example/Pods-HBRadarChart_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -345,13 +333,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEE464892612F43700AF4A67 /* MainTableViewCell.swift in Sources */,
-				EEE4645F2612EB8200AF4A67 /* HBPentagonPoint.swift in Sources */,
 				EEE464702612ECDC00AF4A67 /* LineChartViewController.swift in Sources */,
 				EEE464812612EE3F00AF4A67 /* FilledLineWithPointViewController.swift in Sources */,
 				EE39A2AE260DFFB600C34901 /* MainViewController.swift in Sources */,
 				EEE4647B2612EE3100AF4A67 /* FilledChartViewController.swift in Sources */,
 				EEE464772612EE1F00AF4A67 /* PointedChartViewController.swift in Sources */,
-				EEE464652612EBA100AF4A67 /* HBPentagonRadarChart.swift in Sources */,
 				EE39A2AA260DFFB600C34901 /* AppDelegate.swift in Sources */,
 				EEE464852612F21500AF4A67 /* DottedLineViewController.swift in Sources */,
 				EE39A2AC260DFFB600C34901 /* SceneDelegate.swift in Sources */,
@@ -473,7 +459,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8529CA77B318E6B85FC583C6 /* Pods-HBRadarChart_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -496,7 +481,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADC094FECBCAF8B8E0695E54 /* Pods-HBRadarChart_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -515,6 +499,7 @@
 		};
 		EE39A2B9260DFFB900C34901 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECBD3376253E74BF134D0A7 /* Pods-HBRadarChart_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -545,6 +530,7 @@
 		};
 		EE39A2BA260DFFB900C34901 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 152E02C4FFAA8D4B9FD746E1 /* Pods-HBRadarChart_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

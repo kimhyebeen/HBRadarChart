@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_HBRadarChart_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_HBRadarChart_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_HBRadarChart_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_HBRadarChart_ExampleVersionString[];
 

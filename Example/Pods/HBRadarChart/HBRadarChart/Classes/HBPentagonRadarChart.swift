@@ -1,9 +1,8 @@
 //
 //  HBPentagonRadarChart.swift
-//  HBRadarChart_Example
+//  HBRadarChart
 //
-//  Created by 김혜빈 on 2021/03/30.
-//  Copyright © 2021 CocoaPods. All rights reserved.
+//  Created by 김혜빈 on 2021/03/26.
 //
 
 import UIKit
@@ -18,13 +17,13 @@ open class HBPentagonRadarChart: UIView {
     open var graphFillColor: UIColor = UIColor.systemYellow.withAlphaComponent(0.4)
     open var graphValues: [Int] = [4,4,4,4,4]
     open var graphLineWidth: CGFloat = 1
-    open var isDottedLine: Bool = false
+    open var isDottedLine: Bool = true
     open var isStrokeGraph: Bool = true
     open var isFillGraph: Bool = false
     
     open var contentsColors: [UIColor] = [.systemPurple, .systemBlue, .systemPink, .systemGreen, .systemYellow]
     open var circleSize: CGFloat = 4
-    open var circleHidden: Bool = true
+    open var circleHidden: Bool = false
     
     private var chartSpacingFromView: CGFloat = 12
     private var pointList: [[CGPoint]] = Array(repeating: Array(repeating: CGPoint(x: 0, y: 0), count: 6), count: 5)

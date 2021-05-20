@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HBRadarChart
 
 class PointedChartViewController: UIViewController {
 

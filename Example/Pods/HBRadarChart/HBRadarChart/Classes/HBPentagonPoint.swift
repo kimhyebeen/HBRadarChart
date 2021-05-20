@@ -1,10 +1,10 @@
 //
 //  HBPentagonPoint.swift
-//  HBRadarChart_Example
+//  HBRadarChart
 //
-//  Created by 김혜빈 on 2021/03/30.
-//  Copyright © 2021 CocoaPods. All rights reserved.
+//  Created by 김혜빈 on 2021/03/26.
 //
+
 import UIKit
 
 struct HBPentagonPoint {

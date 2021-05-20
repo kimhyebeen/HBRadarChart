@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C07CE573B6E09B48762971B60E9CC47 /* Pods-HBRadarChart_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF434FD98B24A501EBD1C16CCF5E9CD /* Pods-HBRadarChart_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C254307BFE297658BCBA59D4BD31CD0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124C226E8BD14B1AC379674BF9BCD9EF /* ReplaceMe.swift */; };
-		47C9D24380B64CFC21DB1F4F17D28749 /* HBRadarChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCBB3A87E98AAC4FF74729453C31976 /* HBRadarChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBE3C1CE11017B4589685BA7ADBFD8AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C22DD614A0A99AAD508A76216508B6FD /* Pods-HBRadarChart_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4C4DD185FA66FF64EB40553AA3501 /* Pods-HBRadarChart_Tests-dummy.m */; };
-		E03EB83F0E0E7D42E18DAA55D12D1FBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E9D3AE1A0F34E4AB6B79DE8B04E1D4AE /* HBRadarChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBECE622F3E96CBAA5713B8668FC9934 /* HBRadarChart-dummy.m */; };
-		EE39A28B260DFBF000C34901 /* HBPentagonPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A28A260DFBF000C34901 /* HBPentagonPoint.swift */; };
-		EE39A290260DFC0000C34901 /* HBPentagonRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39A28F260DFC0000C34901 /* HBPentagonRadarChart.swift */; };
+		1D3C9CF0FC808A1322833A65A8A0AC6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2D3763A07C59FE056D58CC6A7AEEE431 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FD124CF7F4F77C48320A67441AD2E /* ReplaceMe.swift */; };
+		3644EB87F5E8C7240D025B7BA012B645 /* HBRadarChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8B34C20AB6A9215BEDD8DD38AE2F2D /* HBRadarChart-dummy.m */; };
+		455F46445412D63396886BFAFF2F378B /* Pods-HBRadarChart_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ED783C049245E1E6FF21082C5681BE /* Pods-HBRadarChart_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4975F45FA2725B07C830740D6221068D /* HBPentagonPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A64080F45D55F351104BE747A2C9C77 /* HBPentagonPoint.swift */; };
+		C6B9B5F6ED467593960B6A33E9189C5B /* HBPentagonRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18389C0DDC1E6BC44EDAFA79A45484 /* HBPentagonRadarChart.swift */; };
+		DF7FF4CD465B2C289FA8EE67BE7B6ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E3CA390336A295865AD973AF3DD2F4BD /* Pods-HBRadarChart_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E85C59C2CBFB2A8AA7F100CE2F542CD2 /* Pods-HBRadarChart_Example-dummy.m */; };
+		E5C8FBD945CA6C9F9E6B55741E591560 /* HBRadarChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BED51C3BD80D9BFA4336B38A573B53 /* HBRadarChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B635329E3FBCFDEF082044DC2E3C6BFB /* PBXContainerItemProxy */ = {
+		222CDF195438AAF5D111D70CA0F56858 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,114 +29,90 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		096BD289E4E90029C8F929587F54EE7A /* HBRadarChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBRadarChart.modulemap; sourceTree = "<group>"; };
-		124C226E8BD14B1AC379674BF9BCD9EF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HBRadarChart/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		3D6D138B27804E4A90CD9814F3F9B9E3 /* Pods-HBRadarChart_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBRadarChart_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3DE4A1EB351204FBF2E91B390A53A3CF /* HBRadarChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HBRadarChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		421FDD758F381B34BE457A422D44E53F /* HBRadarChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBRadarChart.release.xcconfig; sourceTree = "<group>"; };
-		4FCBB3A87E98AAC4FF74729453C31976 /* HBRadarChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBRadarChart-umbrella.h"; sourceTree = "<group>"; };
-		55F09813D031BE49359833BAFDDB2274 /* Pods-HBRadarChart_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBRadarChart_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5BD0D1FDB935204ABFA75629E7575D7A /* Pods-HBRadarChart_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBRadarChart_Tests.modulemap"; sourceTree = "<group>"; };
-		71BDD6F8C3B1826D00DA62C30B046DA2 /* HBRadarChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBRadarChart-prefix.pch"; sourceTree = "<group>"; };
+		03E7D33239DD7BAA111BDD0DA9F1EFB2 /* Pods-HBRadarChart_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBRadarChart_Example.modulemap"; sourceTree = "<group>"; };
+		05E4FB59E4C017F664E20694B573BB58 /* Pods-HBRadarChart_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBRadarChart_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2880FD973C95220944E75E811C82D4BE /* Pods-HBRadarChart_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBRadarChart_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F8B34C20AB6A9215BEDD8DD38AE2F2D /* HBRadarChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBRadarChart-dummy.m"; sourceTree = "<group>"; };
+		3579554A3FBF59029ADC54DDE29416CC /* HBRadarChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBRadarChart-prefix.pch"; sourceTree = "<group>"; };
+		37BED51C3BD80D9BFA4336B38A573B53 /* HBRadarChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBRadarChart-umbrella.h"; sourceTree = "<group>"; };
+		3DE4A1EB351204FBF2E91B390A53A3CF /* HBRadarChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBRadarChart.framework; path = HBRadarChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7EF4C4DD185FA66FF64EB40553AA3501 /* Pods-HBRadarChart_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBRadarChart_Tests-dummy.m"; sourceTree = "<group>"; };
-		83FB8AB31591C8C37D9222A79586AC9A /* Pods-HBRadarChart_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBRadarChart_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9A3E6D5CADC5ECECDC399C06B978715E /* Pods_HBRadarChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBRadarChart_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FADD98550FA9FB91580E4010735AA08 /* HBRadarChart.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HBRadarChart.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A44EB885EFDE4089F03F8B6E99E7B07E /* HBRadarChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBRadarChart-Info.plist"; sourceTree = "<group>"; };
-		B21C2BCF83E858D40A65CED00299B79E /* Pods-HBRadarChart_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBRadarChart_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C8AD97E12E91811840EAA53F781F6320 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CE83F1D79DAA929E5BE01D9A6BA6B6FE /* Pods-HBRadarChart_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBRadarChart_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7A9CDA6063E655201A8ED3A2EFF070C /* HBRadarChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBRadarChart.debug.xcconfig; sourceTree = "<group>"; };
-		DBECE622F3E96CBAA5713B8668FC9934 /* HBRadarChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBRadarChart-dummy.m"; sourceTree = "<group>"; };
-		E342FC117C40969BEF789C502CC59646 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EC7F85832D4D2E86045C79BD465D1158 /* Pods-HBRadarChart_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBRadarChart_Tests-Info.plist"; sourceTree = "<group>"; };
-		EE39A28A260DFBF000C34901 /* HBPentagonPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HBPentagonPoint.swift; path = HBRadarChart/Classes/HBPentagonPoint.swift; sourceTree = "<group>"; };
-		EE39A28F260DFC0000C34901 /* HBPentagonRadarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HBPentagonRadarChart.swift; path = HBRadarChart/Classes/HBPentagonRadarChart.swift; sourceTree = "<group>"; };
-		FCF434FD98B24A501EBD1C16CCF5E9CD /* Pods-HBRadarChart_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBRadarChart_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7A64080F45D55F351104BE747A2C9C77 /* HBPentagonPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBPentagonPoint.swift; path = HBRadarChart/Classes/HBPentagonPoint.swift; sourceTree = "<group>"; };
+		93016265FDC4DB1E49E58B9575E320A2 /* HBRadarChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBRadarChart.release.xcconfig; sourceTree = "<group>"; };
+		95E2CCC7123A24B6A985CD07974C21DC /* HBRadarChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBRadarChart.modulemap; sourceTree = "<group>"; };
+		9B163D07E7786A119700C81E513929A1 /* Pods-HBRadarChart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBRadarChart_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8C9757378BCDCB3446E3A8AA422984D /* HBRadarChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBRadarChart-Info.plist"; sourceTree = "<group>"; };
+		C06FEA3C8E7F80AC6527315209AAC9D9 /* Pods_HBRadarChart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBRadarChart_Example.framework; path = "Pods-HBRadarChart_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB18389C0DDC1E6BC44EDAFA79A45484 /* HBPentagonRadarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBPentagonRadarChart.swift; path = HBRadarChart/Classes/HBPentagonRadarChart.swift; sourceTree = "<group>"; };
+		DAC2A19D436E13F6537EAAEED140E6C9 /* Pods-HBRadarChart_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBRadarChart_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E59FD124CF7F4F77C48320A67441AD2E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HBRadarChart/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E85C59C2CBFB2A8AA7F100CE2F542CD2 /* Pods-HBRadarChart_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBRadarChart_Example-dummy.m"; sourceTree = "<group>"; };
+		EC91B0B41550545CC695B287D07DDC9C /* HBRadarChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBRadarChart.debug.xcconfig; sourceTree = "<group>"; };
+		ED5F83CA481E58D08F8E60EBBE7F9FB0 /* Pods-HBRadarChart_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBRadarChart_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F6ED783C049245E1E6FF21082C5681BE /* Pods-HBRadarChart_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBRadarChart_Example-umbrella.h"; sourceTree = "<group>"; };
+		FE73BA453EFCEC23928BBFAC8739B2CE /* Pods-HBRadarChart_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBRadarChart_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		492D579A20817DA63E880D890DFB1677 /* Frameworks */ = {
+		C2EB295D48FCA0F085D926B6BD0A2BF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBE3C1CE11017B4589685BA7ADBFD8AB /* Foundation.framework in Frameworks */,
+				1D3C9CF0FC808A1322833A65A8A0AC6F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA991ADC30B197F12E14067BE73AFC0E /* Frameworks */ = {
+		F8DE5A2587C131F0A5A30C261DF86EDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E03EB83F0E0E7D42E18DAA55D12D1FBA /* Foundation.framework in Frameworks */,
+				DF7FF4CD465B2C289FA8EE67BE7B6ECD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		040E1C3248EFDCF57078DE443BB750CD /* Products */ = {
+		0B455D8FF20A399CA6D2D9CEA42316BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				3DE4A1EB351204FBF2E91B390A53A3CF /* HBRadarChart.framework */,
-				9A3E6D5CADC5ECECDC399C06B978715E /* Pods_HBRadarChart_Tests.framework */,
+				C06FEA3C8E7F80AC6527315209AAC9D9 /* Pods_HBRadarChart_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D18AD71D5C106F44311A758A5006AA2 /* Pods-HBRadarChart_Tests */ = {
+		231A8FEED11756DC1B21EE8DB67353EC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5BD0D1FDB935204ABFA75629E7575D7A /* Pods-HBRadarChart_Tests.modulemap */,
-				55F09813D031BE49359833BAFDDB2274 /* Pods-HBRadarChart_Tests-acknowledgements.markdown */,
-				B21C2BCF83E858D40A65CED00299B79E /* Pods-HBRadarChart_Tests-acknowledgements.plist */,
-				7EF4C4DD185FA66FF64EB40553AA3501 /* Pods-HBRadarChart_Tests-dummy.m */,
-				3D6D138B27804E4A90CD9814F3F9B9E3 /* Pods-HBRadarChart_Tests-frameworks.sh */,
-				EC7F85832D4D2E86045C79BD465D1158 /* Pods-HBRadarChart_Tests-Info.plist */,
-				FCF434FD98B24A501EBD1C16CCF5E9CD /* Pods-HBRadarChart_Tests-umbrella.h */,
-				CE83F1D79DAA929E5BE01D9A6BA6B6FE /* Pods-HBRadarChart_Tests.debug.xcconfig */,
-				83FB8AB31591C8C37D9222A79586AC9A /* Pods-HBRadarChart_Tests.release.xcconfig */,
-			);
-			name = "Pods-HBRadarChart_Tests";
-			path = "Target Support Files/Pods-HBRadarChart_Tests";
-			sourceTree = "<group>";
-		};
-		2FEB44B02DB7D440296A0B7378025EE7 /* HBRadarChart */ = {
-			isa = PBXGroup;
-			children = (
-				EE39A28A260DFBF000C34901 /* HBPentagonPoint.swift */,
-				EE39A28F260DFC0000C34901 /* HBPentagonRadarChart.swift */,
-				124C226E8BD14B1AC379674BF9BCD9EF /* ReplaceMe.swift */,
-				A90FBAF11EDCEACDA413D823D26D226F /* Pod */,
-				3946DC1B6B8CBC673DE81A83A8CEE0A2 /* Support Files */,
-			);
-			name = HBRadarChart;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		360F1E1182D4D33EE7F06B3E17488AFE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2FEB44B02DB7D440296A0B7378025EE7 /* HBRadarChart */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3946DC1B6B8CBC673DE81A83A8CEE0A2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				096BD289E4E90029C8F929587F54EE7A /* HBRadarChart.modulemap */,
-				DBECE622F3E96CBAA5713B8668FC9934 /* HBRadarChart-dummy.m */,
-				A44EB885EFDE4089F03F8B6E99E7B07E /* HBRadarChart-Info.plist */,
-				71BDD6F8C3B1826D00DA62C30B046DA2 /* HBRadarChart-prefix.pch */,
-				4FCBB3A87E98AAC4FF74729453C31976 /* HBRadarChart-umbrella.h */,
-				D7A9CDA6063E655201A8ED3A2EFF070C /* HBRadarChart.debug.xcconfig */,
-				421FDD758F381B34BE457A422D44E53F /* HBRadarChart.release.xcconfig */,
+				95E2CCC7123A24B6A985CD07974C21DC /* HBRadarChart.modulemap */,
+				2F8B34C20AB6A9215BEDD8DD38AE2F2D /* HBRadarChart-dummy.m */,
+				B8C9757378BCDCB3446E3A8AA422984D /* HBRadarChart-Info.plist */,
+				3579554A3FBF59029ADC54DDE29416CC /* HBRadarChart-prefix.pch */,
+				37BED51C3BD80D9BFA4336B38A573B53 /* HBRadarChart-umbrella.h */,
+				EC91B0B41550545CC695B287D07DDC9C /* HBRadarChart.debug.xcconfig */,
+				93016265FDC4DB1E49E58B9575E320A2 /* HBRadarChart.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HBRadarChart";
+			path = "../Target Support Files/HBRadarChart";
+			sourceTree = "<group>";
+		};
+		514B35F461B753491A059104C874C88A /* Pods-HBRadarChart_Example */ = {
+			isa = PBXGroup;
+			children = (
+				03E7D33239DD7BAA111BDD0DA9F1EFB2 /* Pods-HBRadarChart_Example.modulemap */,
+				2880FD973C95220944E75E811C82D4BE /* Pods-HBRadarChart_Example-acknowledgements.markdown */,
+				05E4FB59E4C017F664E20694B573BB58 /* Pods-HBRadarChart_Example-acknowledgements.plist */,
+				E85C59C2CBFB2A8AA7F100CE2F542CD2 /* Pods-HBRadarChart_Example-dummy.m */,
+				DAC2A19D436E13F6537EAAEED140E6C9 /* Pods-HBRadarChart_Example-frameworks.sh */,
+				FE73BA453EFCEC23928BBFAC8739B2CE /* Pods-HBRadarChart_Example-Info.plist */,
+				F6ED783C049245E1E6FF21082C5681BE /* Pods-HBRadarChart_Example-umbrella.h */,
+				ED5F83CA481E58D08F8E60EBBE7F9FB0 /* Pods-HBRadarChart_Example.debug.xcconfig */,
+				9B163D07E7786A119700C81E513929A1 /* Pods-HBRadarChart_Example.release.xcconfig */,
+			);
+			name = "Pods-HBRadarChart_Example";
+			path = "Target Support Files/Pods-HBRadarChart_Example";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -147,32 +123,42 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6966C9D6CCF284FBE6A1B3EE9D70BAB2 /* Targets Support Files */ = {
+		74ADDFE8572A6959B2ED6ED07CA14BF9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2D18AD71D5C106F44311A758A5006AA2 /* Pods-HBRadarChart_Tests */,
+				B59F8ECCE25CACBDB9DF5FC113DCA85E /* HBRadarChart */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FB0C2FDE1D8BBFCCD398B09957C83BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				514B35F461B753491A059104C874C88A /* Pods-HBRadarChart_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A90FBAF11EDCEACDA413D823D26D226F /* Pod */ = {
+		B59F8ECCE25CACBDB9DF5FC113DCA85E /* HBRadarChart */ = {
 			isa = PBXGroup;
 			children = (
-				9FADD98550FA9FB91580E4010735AA08 /* HBRadarChart.podspec */,
-				E342FC117C40969BEF789C502CC59646 /* LICENSE */,
-				C8AD97E12E91811840EAA53F781F6320 /* README.md */,
+				7A64080F45D55F351104BE747A2C9C77 /* HBPentagonPoint.swift */,
+				CB18389C0DDC1E6BC44EDAFA79A45484 /* HBPentagonRadarChart.swift */,
+				E59FD124CF7F4F77C48320A67441AD2E /* ReplaceMe.swift */,
+				231A8FEED11756DC1B21EE8DB67353EC /* Support Files */,
 			);
-			name = Pod;
+			name = HBRadarChart;
+			path = HBRadarChart;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				360F1E1182D4D33EE7F06B3E17488AFE /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				040E1C3248EFDCF57078DE443BB750CD /* Products */,
-				6966C9D6CCF284FBE6A1B3EE9D70BAB2 /* Targets Support Files */,
+				74ADDFE8572A6959B2ED6ED07CA14BF9 /* Pods */,
+				0B455D8FF20A399CA6D2D9CEA42316BC /* Products */,
+				9FB0C2FDE1D8BBFCCD398B09957C83BF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,33 +173,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7BAC5FE208962C2201F60F4484E93CB1 /* Headers */ = {
+		14D73265B95239F95BD8A89CBD29AC19 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C9D24380B64CFC21DB1F4F17D28749 /* HBRadarChart-umbrella.h in Headers */,
+				455F46445412D63396886BFAFF2F378B /* Pods-HBRadarChart_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		970391023161031ED0004E8609543E17 /* Headers */ = {
+		2A45D183F37185FF2214CDB86F63617B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C07CE573B6E09B48762971B60E9CC47 /* Pods-HBRadarChart_Tests-umbrella.h in Headers */,
+				E5C8FBD945CA6C9F9E6B55741E591560 /* HBRadarChart-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		69299F9C58539044B734BA7BC3F4FE5E /* Pods-HBRadarChart_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54C2DD70A89EA4F6D183DDE21939411 /* Build configuration list for PBXNativeTarget "Pods-HBRadarChart_Example" */;
+			buildPhases = (
+				14D73265B95239F95BD8A89CBD29AC19 /* Headers */,
+				C00557D3142963341E31146F0C3E4828 /* Sources */,
+				C2EB295D48FCA0F085D926B6BD0A2BF7 /* Frameworks */,
+				1E8FD479E5CC636909C8EB56007D13A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB876DA07137178ACE982E795B2A0C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-HBRadarChart_Example";
+			productName = "Pods-HBRadarChart_Example";
+			productReference = C06FEA3C8E7F80AC6527315209AAC9D9 /* Pods_HBRadarChart_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A4260DD78E23B718573B658EAC9C3107 /* HBRadarChart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BED4CB65DBDA92A9D528962A9E9CEF99 /* Build configuration list for PBXNativeTarget "HBRadarChart" */;
+			buildConfigurationList = D0BE84DE3734FF2F5381329E642D4C0C /* Build configuration list for PBXNativeTarget "HBRadarChart" */;
 			buildPhases = (
-				7BAC5FE208962C2201F60F4484E93CB1 /* Headers */,
-				AD5A95165133201C5AD413108B1419C2 /* Sources */,
-				CA991ADC30B197F12E14067BE73AFC0E /* Frameworks */,
-				D57005C15A520373A7CE31097779728B /* Resources */,
+				2A45D183F37185FF2214CDB86F63617B /* Headers */,
+				EEAC7619DBE0BB3E929443B344592DD9 /* Sources */,
+				F8DE5A2587C131F0A5A30C261DF86EDB /* Frameworks */,
+				115C457655E1A25511F2C9322A551EB4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -222,25 +227,6 @@
 			name = HBRadarChart;
 			productName = HBRadarChart;
 			productReference = 3DE4A1EB351204FBF2E91B390A53A3CF /* HBRadarChart.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CADA5CA4E149518C1B0BE598BC44F978 /* Pods-HBRadarChart_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F0F890DFD0B5E67D7AE32391EB5D70A /* Build configuration list for PBXNativeTarget "Pods-HBRadarChart_Tests" */;
-			buildPhases = (
-				970391023161031ED0004E8609543E17 /* Headers */,
-				5AEA60E10D8D5CE76119AE3695057AF9 /* Sources */,
-				492D579A20817DA63E880D890DFB1677 /* Frameworks */,
-				4DE30CD385CFA2B422AA1E1C42FD8290 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C2FCE3EBCE2C141A96D7F85A2FB1F20A /* PBXTargetDependency */,
-			);
-			name = "Pods-HBRadarChart_Tests";
-			productName = "Pods-HBRadarChart_Tests";
-			productReference = 9A3E6D5CADC5ECECDC399C06B978715E /* Pods_HBRadarChart_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -261,25 +247,25 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 040E1C3248EFDCF57078DE443BB750CD /* Products */;
+			productRefGroup = 0B455D8FF20A399CA6D2D9CEA42316BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A4260DD78E23B718573B658EAC9C3107 /* HBRadarChart */,
-				CADA5CA4E149518C1B0BE598BC44F978 /* Pods-HBRadarChart_Tests */,
+				69299F9C58539044B734BA7BC3F4FE5E /* Pods-HBRadarChart_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4DE30CD385CFA2B422AA1E1C42FD8290 /* Resources */ = {
+		115C457655E1A25511F2C9322A551EB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D57005C15A520373A7CE31097779728B /* Resources */ = {
+		1E8FD479E5CC636909C8EB56007D13A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,41 +275,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5AEA60E10D8D5CE76119AE3695057AF9 /* Sources */ = {
+		C00557D3142963341E31146F0C3E4828 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C22DD614A0A99AAD508A76216508B6FD /* Pods-HBRadarChart_Tests-dummy.m in Sources */,
+				E3CA390336A295865AD973AF3DD2F4BD /* Pods-HBRadarChart_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD5A95165133201C5AD413108B1419C2 /* Sources */ = {
+		EEAC7619DBE0BB3E929443B344592DD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D3AE1A0F34E4AB6B79DE8B04E1D4AE /* HBRadarChart-dummy.m in Sources */,
-				EE39A28B260DFBF000C34901 /* HBPentagonPoint.swift in Sources */,
-				3C254307BFE297658BCBA59D4BD31CD0 /* ReplaceMe.swift in Sources */,
-				EE39A290260DFC0000C34901 /* HBPentagonRadarChart.swift in Sources */,
+				4975F45FA2725B07C830740D6221068D /* HBPentagonPoint.swift in Sources */,
+				C6B9B5F6ED467593960B6A33E9189C5B /* HBPentagonRadarChart.swift in Sources */,
+				3644EB87F5E8C7240D025B7BA012B645 /* HBRadarChart-dummy.m in Sources */,
+				2D3763A07C59FE056D58CC6A7AEEE431 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C2FCE3EBCE2C141A96D7F85A2FB1F20A /* PBXTargetDependency */ = {
+		5DB876DA07137178ACE982E795B2A0C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HBRadarChart;
 			target = A4260DD78E23B718573B658EAC9C3107 /* HBRadarChart */;
-			targetProxy = B635329E3FBCFDEF082044DC2E3C6BFB /* PBXContainerItemProxy */;
+			targetProxy = 222CDF195438AAF5D111D70CA0F56858 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13A69F5D639ED5424B050F17F662461C /* Debug */ = {
+		12F441DEA8F108024D33839F6DBA1CFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7A9CDA6063E655201A8ED3A2EFF070C /* HBRadarChart.debug.xcconfig */;
+			baseConfigurationReference = 9B163D07E7786A119700C81E513929A1 /* Pods-HBRadarChart_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -332,86 +321,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HBRadarChart/HBRadarChart-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HBRadarChart/HBRadarChart-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBRadarChart_Example/Pods-HBRadarChart_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HBRadarChart/HBRadarChart.modulemap";
-				PRODUCT_MODULE_NAME = HBRadarChart;
-				PRODUCT_NAME = HBRadarChart;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBRadarChart_Example/Pods-HBRadarChart_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
 			name = Release;
 		};
-		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -464,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -477,10 +407,108 @@
 			};
 			name = Debug;
 		};
-		9FEDB0416EDC825BDB27F0D46122A87A /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 421FDD758F381B34BE457A422D44E53F /* HBRadarChart.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D8BF0E5524B8AC9A30EAB3BD24A3D24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5F83CA481E58D08F8E60EBBE7F9FB0 /* Pods-HBRadarChart_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBRadarChart_Example/Pods-HBRadarChart_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBRadarChart_Example/Pods-HBRadarChart_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC0713003955BE925B1C3BCF525DAC99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC91B0B41550545CC695B287D07DDC9C /* HBRadarChart.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -492,7 +520,39 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HBRadarChart/HBRadarChart-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HBRadarChart/HBRadarChart-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBRadarChart/HBRadarChart.modulemap";
+				PRODUCT_MODULE_NAME = HBRadarChart;
+				PRODUCT_NAME = HBRadarChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5C07D24B401FF33CB2DC0A9B22A2D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93016265FDC4DB1E49E58B9575E320A2 /* HBRadarChart.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBRadarChart/HBRadarChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBRadarChart/HBRadarChart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HBRadarChart/HBRadarChart.modulemap";
 				PRODUCT_MODULE_NAME = HBRadarChart;
@@ -508,97 +568,32 @@
 			};
 			name = Release;
 		};
-		BF58E2E8F0983778DF6AC875A0928E4D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83FB8AB31591C8C37D9222A79586AC9A /* Pods-HBRadarChart_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HBRadarChart_Tests/Pods-HBRadarChart_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HBRadarChart_Tests/Pods-HBRadarChart_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D4F1C0FDB9D6AA7675A7281AC1D2219C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE83F1D79DAA929E5BE01D9A6BA6B6FE /* Pods-HBRadarChart_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HBRadarChart_Tests/Pods-HBRadarChart_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HBRadarChart_Tests/Pods-HBRadarChart_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F0F890DFD0B5E67D7AE32391EB5D70A /* Build configuration list for PBXNativeTarget "Pods-HBRadarChart_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4F1C0FDB9D6AA7675A7281AC1D2219C /* Debug */,
-				BF58E2E8F0983778DF6AC875A0928E4D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79759604D78320E712558F49DF19AA9F /* Debug */,
-				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BED4CB65DBDA92A9D528962A9E9CEF99 /* Build configuration list for PBXNativeTarget "HBRadarChart" */ = {
+		B54C2DD70A89EA4F6D183DDE21939411 /* Build configuration list for PBXNativeTarget "Pods-HBRadarChart_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13A69F5D639ED5424B050F17F662461C /* Debug */,
-				9FEDB0416EDC825BDB27F0D46122A87A /* Release */,
+				D8BF0E5524B8AC9A30EAB3BD24A3D24D /* Debug */,
+				12F441DEA8F108024D33839F6DBA1CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BE84DE3734FF2F5381329E642D4C0C /* Build configuration list for PBXNativeTarget "HBRadarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0713003955BE925B1C3BCF525DAC99 /* Debug */,
+				F5C07D24B401FF33CB2DC0A9B22A2D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

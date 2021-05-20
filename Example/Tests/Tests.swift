@@ -1,5 +1,5 @@
 import XCTest
-import HBRadarChart
+
 
 class Tests: XCTestCase {
     
